@@ -1,4 +1,3 @@
-import 'package:dart_bot/models.dart';
 import 'dart:io';
 
 Map<String, String> subjects = {
@@ -8,9 +7,8 @@ Map<String, String> subjects = {
   'inf': 'Информатика'
 };
 
-DataBase dataBase = DataBase(
-  documents: [
-    Document(
-        title: 'Правописание корней', topic: 'rus', file: File('/home/rulemore/dart_bot/lib/data/russian/ex9.pptx')),
-  ],
-);
+List<String> subjectsList = ['rus', 'inf', 'social', 'math'];
+
+Map<String, File> files = {
+  'rus_1': File('/home/rulemore/dart_bot/lib/data/russian/ex9.pptx'),
+};
