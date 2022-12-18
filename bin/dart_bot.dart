@@ -56,7 +56,7 @@ void pickSubject(TeleDart teledart, TeleDartMessage message) async {
     [InlineKeyboardButton(text: 'Английский язык', callback_data: 'english')]
   ];
 
-  await teledart.sendMessage(message.chat.id, 'Выберите предмет',
+  teledart.sendMessage(message.chat.id, 'Выберите предмет',
       reply_markup: InlineKeyboardMarkup(inline_keyboard: subjects));
 }
 
