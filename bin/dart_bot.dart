@@ -3,7 +3,7 @@ import 'package:teledart/telegram.dart';
 import 'package:teledart/model.dart';
 import 'package:dart_bot/data.dart';
 
-const String telegramApiToken = '';
+const String telegramApiToken = '5982537010:AAFr0udYAAD9G1Sjv_VMe2mK7-UHAdTHKoo';
 
 void main() async {
   final telegram = Telegram(telegramApiToken);
@@ -70,7 +70,7 @@ InlineKeyboardMarkup getMarkup(id) {
 
   final List<List<InlineKeyboardButton>> mathTopics = [
     [InlineKeyboardButton(text: 'Логарифмические уравнения', callback_data: 'math_1')],
-    [InlineKeyboardButton(text: 'Тригонометрических уравнения', callback_data: 'math_2')],
+    [InlineKeyboardButton(text: 'Тригонометрические уравнения', callback_data: 'math_2')],
     [InlineKeyboardButton(text: 'Экономические задачи', callback_data: 'math_3')],
     [InlineKeyboardButton(text: 'Тригонометрия', callback_data: 'math_4')],
     [InlineKeyboardButton(text: 'Назад', callback_data: 'back')]
