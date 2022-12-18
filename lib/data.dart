@@ -4,7 +4,8 @@ Map<String, String> subjects = {
   'rus': 'Русский Язык',
   'math': 'Математика',
   'social': 'Обществознание',
-  'inf': 'Информатика'
+  'inf': 'Информатика',
+  'english': 'Английский язык',
 };
 
 List<String> subjectsList = ['rus', 'inf', 'social', 'math', 'english'];
