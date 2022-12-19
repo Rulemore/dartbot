@@ -3,7 +3,7 @@ import 'package:teledart/telegram.dart';
 import 'package:teledart/model.dart';
 import 'package:dart_bot/data.dart';
 
-const String telegramApiToken = '5982537010:AAFr0udYAAD9G1Sjv_VMe2mK7-UHAdTHKoo';
+const String telegramApiToken = '5738895045:AAGo4jXwC5eigsVLbfZo0gbHJEhD6ASg7Jo';
 
 void main() async {
   final telegram = Telegram(telegramApiToken);
