@@ -44,7 +44,8 @@ void callbackHandler(TeleDart teledart) async {
 }
 
 void helloMessage(TeleDart teledart, TeleDartMessage message) async {
-  teledart.sendMessage(message.chat.id, 'Вас приветствует бот Mospolyschool');
+  teledart.sendMessage(message.chat.id,
+      'Вас приветствует бот Mospolyschool\nЭто бот для подготовки к ЕГЭ, созданный с любовью студентами Московского Политеха ❤️');
 }
 
 void pickSubject(TeleDart teledart, TeleDartMessage message) async {
